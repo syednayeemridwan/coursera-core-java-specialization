@@ -11,16 +11,21 @@ public class Box {
         this(height, height, height);
     }
 
-    private double height;
-    private double width;
-    private double length;
+    // Default values for box in case any invalid number is given
+    private double height = 1;
+    private double width = 1;
+    private double length = 1;
 
     public double getHeight() {
         return height;
     }
 
     public void setHeight(double height) {
-        this.height = height;
+        if (height > 0) {
+            this.height = height;
+        } else {
+            System.out.println("Height must be greater than 0");
+        }
     }
 
     public double getWidth() {
@@ -28,7 +33,11 @@ public class Box {
     }
 
     public void setWidth(double width) {
-        this.width = width;
+        if (width > 0) {
+            this.width = width;
+        } else {
+            System.out.println("Width must be greater than 0");
+        }
     }
 
     public double getLength() {
@@ -36,7 +45,11 @@ public class Box {
     }
 
     public void setLength(double length) {
-        this.length = length;
+        if (length > 0) {
+            this.length = length;
+        } else {
+            System.out.println("Length must be greater than 0");
+        }
     }
 
     public double getVolume() {
@@ -60,8 +73,8 @@ public class Box {
 
     }
 
-    public static void main(String[] args) {
-        Box b = new Box(1.2);
-        b.printBox();
-    }
+    // public static void main(String[] args) {
+    // Box b = new Box(1.2);
+    // b.printBox();
+    // }
 }
