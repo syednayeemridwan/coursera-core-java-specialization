@@ -1,3 +1,5 @@
 Single responsibility principle
 printf java
 object array java
+java varargs
+java ternary operator
