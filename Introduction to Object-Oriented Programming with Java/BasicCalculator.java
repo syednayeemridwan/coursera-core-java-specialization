@@ -1,7 +1,11 @@
 // package com.javaoo.calculators;
 
 public class BasicCalculator {
+    public BasicCalculator() {
+    }
+
     public BasicCalculator(double x, double y) {
+        // this();
         setX(x);
         setY(y);
     }

@@ -3,6 +3,9 @@
 public class TrigonometricCalculator {
     private double someValue;
 
+    public TrigonometricCalculator() {
+    }
+
     public double getSomeValue() {
         return someValue;
     }
@@ -15,28 +18,28 @@ public class TrigonometricCalculator {
         this.someValue = someValue;
     }
 
-    public static double sine(double x) {
-        return 0;
+    public double sine(double x) {
+        return Math.sin(x);
     }
 
-    public static double cosine(double x) {
-        return 0;
+    public double cosine(double x) {
+        return Math.cos(x);
     }
 
-    public static double tangent(double x) {
-        return 0;
+    public double tangent(double x) {
+        return Math.tan(x);
     }
 
-    public static double arcsine(double x) {
-        return 0;
+    public double arcsine(double x) {
+        return Math.asin(x);
     }
 
-    public static double arccosine(double x) {
-        return 0;
+    public double arccosine(double x) {
+        return Math.acos(x);
     }
 
-    public static double arctangent(double x) {
-        return 0;
+    public double arctangent(double x) {
+        return Math.atan(x);
     }
 
     // public static void main(String[] args) {

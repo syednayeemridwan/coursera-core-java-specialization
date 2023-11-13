@@ -4,16 +4,19 @@ public class ScientificCalculator {
     public final static double PI = 3.14;
     private double holdValue;
 
+    public ScientificCalculator() {
+    }
+
     public ScientificCalculator(double x) {
         holdValue = x;
     }
 
-    public static double exp(double x) {
-        return 0;
+    public double exp(double x) {
+        return Math.exp(x);
     }
 
-    public static double log(double x) {
-        return 0;
+    public double log(double x) {
+        return Math.log(x);
     }
 
     public void putValueInMemory(double x) {
