@@ -1,3 +1,5 @@
+package com.learnquest.inventorysystem;
+
 public class Item {
     private String title;
     private double price;

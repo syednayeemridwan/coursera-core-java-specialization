@@ -1,3 +1,5 @@
+package com.learnquest.inventorysystem;
+
 public class Artist {
     private String name;
     private String memberNames[] = new String[20];

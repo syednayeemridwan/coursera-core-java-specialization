@@ -1,3 +1,5 @@
+package com.learnquest.boxinfo;
+
 public class Cube extends Box {
     public Cube(double side) {
         super(side, side, side);

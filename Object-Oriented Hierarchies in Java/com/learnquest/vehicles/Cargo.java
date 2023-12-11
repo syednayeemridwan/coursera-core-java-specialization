@@ -1,3 +1,7 @@
+package com.learnquest.vehicles;
+
+import com.learnquest.vehicles.Car;
+
 public class Cargo extends Car {
 
     public Cargo() {

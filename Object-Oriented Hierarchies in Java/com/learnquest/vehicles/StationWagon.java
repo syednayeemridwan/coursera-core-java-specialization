@@ -1,4 +1,6 @@
-// package com.demo2.something;
+package com.learnquest.vehicles;
+
+import com.learnquest.vehicles.Cargo;
 
 public class StationWagon extends Cargo {
     public StationWagon() {

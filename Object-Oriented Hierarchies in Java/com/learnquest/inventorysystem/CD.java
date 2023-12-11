@@ -1,3 +1,7 @@
+package com.learnquest.inventorysystem;
+
+import java.util.Date;
+
 public class CD extends Item {
     private Artist artist;
     private Date releaseDate;

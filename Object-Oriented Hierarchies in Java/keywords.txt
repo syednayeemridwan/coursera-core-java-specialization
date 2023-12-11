@@ -2,3 +2,7 @@ object type java
 overloading java
 overriding java
 abstract class java
+abstract vs interface java
+default method java
+static method java
+interface java

@@ -1,3 +1,6 @@
+package com.learnquest.inventorysystem;
+
+import com.learnquest.inventorysystem.CD;
 import java.util.Date;
 
 public class InventoryDriver {
@@ -15,10 +18,12 @@ public class InventoryDriver {
         Artist artist3 = new Artist("Jimmy and the Yuppers");
         myInventory[7] = new CD("Polka Favorites", 2.95, 4, artist3, new Date("07/07/1955"));
 
-        String[] performers1 = { "Henry", "Elizabeth", "Franz", "Arthur" };
-        myInventory[8] = new ClassicalCD("Romeo and Juliet", 22.95, 1, "Joe Green", "New York", new Date("01/01/2001"), performers1)
-        String[] performers2 = { "Vivaldi", "Johnson", "Arturo", "Wenselous" };
-        myInventory[9] = new ClassicalCD("A Ramp in the Park", 22.95, 3, "Bethoven", "Hamburg", new Date("01/01/2001"), performers2)
+        // String[] performers1 = { "Henry", "Elizabeth", "Franz", "Arthur" };
+        // myInventory[8] = new ClassicalCD("Romeo and Juliet", 22.95, 1, "Joe Green", "New York", new Date("01/01/2001"),
+        //         performers1);
+        // String[] performers2 = { "Vivaldi", "Johnson", "Arturo", "Wenselous" };
+        // myInventory[9] = new ClassicalCD("A Ramp in the Park", 22.95, 3, "Bethoven", "Hamburg", new Date("01/01/2001"),
+        //         performers2);
         Inventory.produceReport(myInventory);
     }
 }

@@ -1,6 +1,8 @@
-// package com.demo2.something;
+package com.learnquest.vehicles;
 
-public class Car {
+import com.learnquest.vehicles.Vehicle;
+
+public abstract class Car implements Vehicle {
     private static final int MAX_SPEED = 100;
     private String name;
     private int speed;

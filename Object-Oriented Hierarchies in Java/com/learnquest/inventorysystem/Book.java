@@ -1,3 +1,5 @@
+package com.learnquest.inventorysystem;
+
 public class Book extends Item {
     private String author;
     private String publisher;

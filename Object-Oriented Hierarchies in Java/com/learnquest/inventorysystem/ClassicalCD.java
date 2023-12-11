@@ -1,3 +1,7 @@
+package com.learnquest.inventorysystem;
+
+import java.util.Date;
+
 public class ClassicalCD extends Item {
     private String composer;
     private String performers[] = new String[5];

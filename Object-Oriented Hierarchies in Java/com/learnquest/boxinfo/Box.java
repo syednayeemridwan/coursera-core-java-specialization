@@ -1,3 +1,5 @@
+package com.learnquest.boxinfo;
+
 public class Box {
 
     public Box(double length, double width, double height) {
