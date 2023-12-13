@@ -1,6 +1,6 @@
 package com.learnquest.vehicles;
 
-import com.learnquest.vehicles.Car;
+// import com.learnquest.vehicles.Car;
 
 public class Cargo extends Car {
 
@@ -15,8 +15,6 @@ public class Cargo extends Car {
     public Cargo(String name, int speed, int fuel, boolean running) {
         super(name, speed, fuel, running);
     }
-
-    private int cargoCapacity;
 
     private int cargoLoad;
 

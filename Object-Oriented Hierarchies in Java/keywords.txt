@@ -6,3 +6,5 @@ abstract vs interface java
 default method java
 static method java
 interface java
+lambda java
+foreach java

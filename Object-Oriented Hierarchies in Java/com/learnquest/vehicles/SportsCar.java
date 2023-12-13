@@ -1,6 +1,6 @@
 package com.learnquest.vehicles;
 
-import com.learnquest.vehicles.Car;
+// import com.learnquest.vehicles.Car;
 
 public class SportsCar extends Car {
     public SportsCar() {
@@ -15,12 +15,20 @@ public class SportsCar extends Car {
         super(name, speed, fuel, running);
     }
 
-    private int cargoCapacity;
-
     private int cargoLoad;
+
+    public int getCargoLoad() {
+        return cargoLoad;
+    }
 
     public void setCargoLoad(int cargoLoad) {
         this.cargoLoad = cargoLoad;
     }
 
+    @Override
+    public String toString() {
+        System.out.println("Name of the Sportscar = " + getName());
+        System.out.println("Speed of the Sportscar = " + getSpeed());
+        return "--------------";
+    }
 }

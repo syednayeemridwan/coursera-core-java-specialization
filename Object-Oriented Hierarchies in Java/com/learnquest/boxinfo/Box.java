@@ -1,6 +1,6 @@
 package com.learnquest.boxinfo;
 
-public class Box {
+public class Box extends Shape implements ThreeD {
 
     public Box(double length, double width, double height) {
         setLength(length);
