@@ -19,4 +19,12 @@ public abstract class Shape {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        System.out.println("Name = " + getName());
+        System.out.println("Color =" + getColor());
+        return "-----------------------";
+    }
+
 }

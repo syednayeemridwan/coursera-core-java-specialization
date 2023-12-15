@@ -5,6 +5,12 @@ public class Cube extends Box {
         super(side, side, side);
     }
 
+    public Cube(double side, String name, String color) {
+        super(side, side, side);
+        setName(name);
+        setColor(color);
+    }
+
     double side;
 
     public double getSide() {

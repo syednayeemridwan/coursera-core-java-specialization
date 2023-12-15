@@ -8,6 +8,16 @@ public class Box extends Shape implements ThreeD {
         setHeight(height);
     }
 
+    public Box(double length, double width, double height, String name, String color) {
+        super();
+        setLength(length);
+        setWidth(width);
+        setHeight(height);
+        setName(name);
+        setColor(color);
+
+    }
+
     private double length;
     private double height;
     private double width;
@@ -53,7 +63,12 @@ public class Box extends Shape implements ThreeD {
         System.out.println("Height = " + getHeight());
         System.out.println("Volume = " + getVolume());
         System.out.println("Surface Area = " + getSurfaceArea());
-        System.out.println("------------------------------------");
 
+    }
+
+    @Override
+    public String toString() {
+        printBox();
+        return super.toString();
     }
 }

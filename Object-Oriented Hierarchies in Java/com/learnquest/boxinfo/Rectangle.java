@@ -50,4 +50,13 @@ public class Rectangle extends Shape implements TwoD {
         return 222;
     }
 
+    @Override
+    public String toString() {
+        System.out.println("Length =" + getLength());
+        System.out.println("Width = " + getWidth());
+        System.out.println("Area = " + getArea());
+        System.out.println("Perimeter = " + getPerimeter());
+        return super.toString();
+    }
+
 }
