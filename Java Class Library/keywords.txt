@@ -8,3 +8,5 @@ list java
 set java
 java collection
 java stream
+java exception
+java garbage collection
