@@ -1,0 +1,16 @@
+generic java
+java get class name
+generic method java
+nested class java
+functional programming java
+map java
+list java
+set java
+java collection
+java stream
+java exception
+java garbage collection
+java property file
+java file read
+enum java
+annotation java
