@@ -1,0 +1,5 @@
+spring boot entity
+spring boot repository
+spring boot command line runner
+spring boot model
+spring boot service
