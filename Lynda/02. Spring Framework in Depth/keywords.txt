@@ -1,0 +1,4 @@
+dependency injection
+spring configuration
+bean scope spring
+spring proxy
