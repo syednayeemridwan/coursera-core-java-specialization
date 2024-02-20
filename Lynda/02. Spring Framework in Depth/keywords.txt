@@ -2,3 +2,4 @@ dependency injection
 spring configuration
 bean scope spring
 spring proxy
+spring autowired
