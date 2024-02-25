@@ -1,0 +1,9 @@
+spring boot entity
+spring boot repository
+spring boot model
+spring boot service
+spring boot command line runner
+spring boot controller
+spring boot api
+thymeleaf template
+
