@@ -3,3 +3,7 @@ spring configuration
 bean scope spring
 spring proxy
 spring autowired
+spring component scanning
+spring lifecycle
+spring aop
+spring aspect
